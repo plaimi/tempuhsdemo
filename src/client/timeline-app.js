@@ -190,7 +190,7 @@ function timelinesListView(state) {
 
     return mainSection([
         h('div.g-twelve-col', [
-            h('h1.h-one', 'Your timelines')
+            h('h1.h-one', 'Example timelines')
         ]),
         h('div.g-eight-col', [
             _.toArray(state.timelines).map(function (timespan) {
@@ -227,7 +227,7 @@ function addTimelineSection(state) {
         }),
         h('input.timelineForm-input.timelineForm-submit', {
             type  : 'submit',
-            value : 'Create timeline'
+            value : 'Author timeline'
         })
     ]);
 }
@@ -235,7 +235,7 @@ function addTimelineSection(state) {
 function timelineView(state, id) {
     if (state.timelines[id] === undefined) {
         return mainSection(
-            h('div.g-twelve-col', [h('h1.h-one', 'Create timeline')])
+            h('div.g-twelve-col', [h('h1.h-one', 'Author timeline')])
         );
     }
 
@@ -287,7 +287,7 @@ function timelineView(state, id) {
 
     return mainSection([
         h('div.g-twelve-col', [
-            h('h1.h-one', 'Create timeline')
+            h('h1.h-one', 'Author timeline')
         ]),
         h('div.g-eight-col', [
             h('div.timelineEdit', [
@@ -367,7 +367,7 @@ function timelineView(state, id) {
                     }),
                     h('input.timelineForm-input.timelineForm-submit', {
                         type  : 'submit',
-                        value : 'Create event'
+                        value : 'Record event'
                     })
                 ])
             ])
