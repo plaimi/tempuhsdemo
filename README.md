@@ -1,10 +1,9 @@
-# MyTimelines
+# tempuhs demo
 
-A timeline visualisation service.
+A timeline visualisation client that demonstrates 
+[tempuhs](https://secure.plaimi.net/works/tempuhs.html).
 
 ## Usage
-
-MyTimelines is known to run well with version 0.10.x of NodeJS.
 
 Install dependencies:
 
@@ -22,8 +21,8 @@ To start the server:
 
 ### Tempuhs-Server
 
-MyTimelines will send requests for timespans to `localhost:7070`. If you want
-the service to function there should probably be something at that endpoint
+The client will send requests for timespans to `localhost:7070`. If you want
+it to function, there should probably be something at that endpoint
 which can handle the requests.
 
 ## License
