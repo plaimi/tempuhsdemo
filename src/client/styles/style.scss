@@ -10,18 +10,18 @@ body {
     padding: 0;
     //color: #3D444E;
     color: #ABC;
-    font: 14px/#{$baseline} 'Open Sans', sans-serif;
+    font: 14px/#{$baseline} 'Comic Neue', sans-serif;
 }
 
 .mytimelines-wrapper { height: 100%; }
 
 .h-one {
-    font: 40px/#{$baseline * 2} 'Crushed', cursive;
+    font: 40px/#{$baseline * 2} 'Comic Neue Angular', sans-serif;
     margin: 0 0 $baseline 0;
 }
 
 .h-two {
-    font: 26px/#{$baseline * 1.5} 'Crushed', cursive;
+    font: 26px/#{$baseline * 1.5} 'Comic Neue Angular', sans-serif;
     margin: 0 0 #{$baseline / 2} 0;
 
     & a {
@@ -305,7 +305,7 @@ body {
         margin: 0 0 #{$baseline / 4};
         padding: $baseline / 2;
         color: #ABC;
-        font: 26px/#{$baseline * 1.5} 'Crushed', cursive;
+        font: 26px/#{$baseline * 1.5} 'Comic Neue Angular', sans-serif;
         border: none;
         position: relative;
 
