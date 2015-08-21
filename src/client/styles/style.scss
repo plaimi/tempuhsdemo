@@ -4,12 +4,12 @@ html { height: 100%; font-size: 62.5%; }
 
 body {
     //background: #ffffff;
-    background: #3D444E;
+    background: #012345;
     height: 100%;
     margin: 0;
     padding: 0;
     //color: #3D444E;
-    color: #FFF;
+    color: #ABC;
     font: 14px/#{$baseline} 'Open Sans', sans-serif;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .header {
-    background: #292E34;
+    background: #123456;
     height: $baseline * 2.5;
     color: #fff;
     overflow: hidden;
@@ -89,15 +89,15 @@ body {
                 display: inline-block;
             }
 
-            &.active { background: #3D444E; }
+            &.active { background: #012345; }
             &:hover { background: #FA8754 }
         }
 
 .main {
-    background: #3D444E;
+    background: #012345;
     width: 100%;
     padding: #{$baseline * 3} 0;
-    color: #fff;
+    color: #ABC;
     overflow: auto;
 
     -webkit-font-smoothing: antialiased;
@@ -148,14 +148,14 @@ body {
     }
 
 .timelineItem {
-    background: #292E34;
+    background: #012345;
     margin: 0 0 #{$baseline / 2};
     padding: $baseline / 2;
-    color: #fff;
+    color: #ABC;
     position: relative;
 
     &:hover {
-        background: #212528;
+        background: #123456;
     }
 }
 
@@ -170,7 +170,7 @@ body {
     }
 
     .timelineItem-button {
-        background: #212528;
+        background: #012345;
         width: $baseline * 2;
         height: $baseline * 2;
         margin: 0 0 0 #{$baseline / 4};
@@ -198,7 +198,7 @@ body {
     }
 
 .timelineForm {
-    background: #29ABA3;
+    background: #123456;
     padding: $baseline / 2;
     position: relative;
 
@@ -262,7 +262,7 @@ body {
         }
 
     .timelineForm-submit {
-        background: #269187;
+        background: #234567;
         margin: 0;
         color: #fff;
         cursor: pointer; cursor: hand;
@@ -272,7 +272,7 @@ body {
     }
 
     .timelineForm-close {
-        background: #269187;
+        background: #234567;
         width: $baseline * 1.5;
         height: $baseline * 1.5;
         margin: 0;
@@ -300,11 +300,11 @@ body {
 }
 
     .timelineEdit-title {
-        background: #292E34;
+        background: #123456;
         width: 100%;
         margin: 0 0 #{$baseline / 4};
         padding: $baseline / 2;
-        color: #7BC8C8;
+        color: #ABC;
         font: 26px/#{$baseline * 1.5} 'Crushed', cursive;
         border: none;
         position: relative;
@@ -322,10 +322,10 @@ body {
     }
 
     .timelineEdit-description {
-        background: #292E34;
+        background: #123456;
         width: 100%;
         padding: $baseline / 2;
-        color: #FFF;
+        color: #ABC;
         font-size: 14px;
         border: none;
         position: relative;
@@ -344,14 +344,14 @@ body {
     }
 
 .timespanItem {
-    background: #292E34;
+    background: #012345;
     margin: 0 0 #{$baseline / 4};
     padding: $baseline / 2;
     color: #fff;
     position: relative;
 
     &:hover {
-        background: #212528;
+        background: #123456;
     }
 }
 
@@ -366,7 +366,7 @@ body {
     }
 
     .timespanItem-button {
-        background: #212528;
+        background: #012345;
         width: #{($baseline * 2) - ($baseline / 2)};
         height: #{($baseline * 2) - ($baseline / 2)};
         margin: 0 0 0 #{$baseline / 4};
