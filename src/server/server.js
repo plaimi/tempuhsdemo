@@ -49,6 +49,14 @@ server.route({
 });
 
 server.route({
+    method  : 'GET',
+    path    : '/',
+    handler : function (request, reply) {
+        reply.redirect('/timelines');
+    }
+});
+
+server.route({
     method  : '*',
     path    : '/{path*}',
     handler : function (request, reply) {

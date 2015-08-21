@@ -67,14 +67,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-    .header-logo {
-        background: url('/public/logo.svg');
-        background-size: 147px 36px;
-        width: 147px;
-        height: 36px;
-        margin: #{(($baseline * 2.5) - 36) / 2} 0;
-    }
-
     .mainNav {
         height: 100%;
         position: absolute;
@@ -110,71 +102,6 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.lightMain {
-    background: white url("/public/front-timeline.svg") repeat-x top;
-    background-size: 204px 24px;
-    width: 100%;
-    min-height: calc(100% - 525px);
-    color: #6E737A;
-    overflow: hidden;
-}
-
-.hugeLogo {
-    background: url("/public/front-logo.svg");
-    background-size: 215px 255px;
-    width: 215px;
-    height: 255px;
-    margin: 0 ($baseline * 2) 0 0;
-    display: inline-block;
-    float: left;
-}
-
-.informativeText {
-    width: (460px - ($baseline * 2));
-    display: inline-block;
-    float: left;
-}
-
-.ingress {
-    color: #FA8754;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.squigglyArt {
-    width: 241px;
-    margin: ($baseline * 3) 0 0 ($baseline * 2);
-    display: inline-block;
-    float: right;
-}
-
-.getStarted {
-    background: #F46B32;
-    width: $baseline * 8;
-    margin: ($baseline * 4) auto 0;
-    padding: ($baseline * 1.5) ($baseline);
-    display: block;
-    position: relative;
-    cursor: pointer; cursor: hand;
-
-    &:before {
-        content: "";
-        height: ($baseline * 4) - 20px;
-        border: solid #F46B32;
-        border-width: 0 2px 0 2px;
-        position: absolute;
-        right: 50%;
-        left: 50%;
-        bottom: 100%;
-    }
-
-    & > .icon {
-        vertical-align: middle;
-        display: inline-block;
-        pointer-events: none;
-    }
 }
 
 .modal {
