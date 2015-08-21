@@ -170,7 +170,7 @@ function header(route) {
             h('nav.mainNav', [
                 link('/', 'Home', route === '/'),
                 link('/timelines', 'Timelines', route === '/timelines'),
-                link('https://github.com/cerpus/mytimelines', 'Source code', false)
+                link('https://github.com/plaimi/tempuhsdemo', 'Source code', false)
             ])
         ])
     ]);
